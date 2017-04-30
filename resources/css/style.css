@@ -3,12 +3,50 @@ html {
 }
 
 body {
-
+  font-family: 'Vollkorn', serif;
+  font-family: 'Unica One', cursive;
 }
 
 /* Header */
 header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
 
+header .row {
+  display: flex;
+}
+
+header .row img {
+  margin-left: 20px;
+}
+
+header .row h1 {
+  margin-left: 40px;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+/* Desktop Nav */
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 48px;
+  font-size: 1.25rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
 
 /* Body */
@@ -18,5 +56,5 @@ header {
 
 /* Footer */
 footer {
-  
+
 }
