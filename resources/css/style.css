@@ -15,10 +15,14 @@ header {
   justify-content: space-between;
   align-items: center;
   color: white;
+  background: gray;
+  opacity: .6;
+  border-bottom: solid .05rem black;
 }
 
 header .row {
   display: flex;
+  margin: 0px;
 }
 
 header .row img {
@@ -35,7 +39,6 @@ header .row h1 {
 nav {
   display: flex;
   align-items: center;
-  margin-top: 10px;
 }
 
 nav li {
@@ -58,7 +61,7 @@ a {
 }
 
 video {
-  
+
 }
 
 /* Content */
@@ -67,14 +70,42 @@ video {
   width: 100%;
   height: 400px;
   border-top: 2px solid black;
+  display: flex;
+  font-size: 1.95rem;
+  text-align: center;
+  align-items: center;
+}
+
+.content p {
+  border-top: solid 1rem black;
+  border-bottom: solid 1rem black;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
 }
 
 /* Contact */
-.contact {
+.feature {
   background-color: blue;
   width: 100%;
-  height: 400px;
+  height: auto;
   border-top: 2px solid black;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem;
+}
+
+.feature ul {
+  display: inline-flex;
+  height: auto;
+}
+
+.feature li {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem;
 }
 
 /* Footer */
