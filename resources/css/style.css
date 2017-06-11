@@ -16,7 +16,7 @@ body {
     justify-content: space-between;
     align-items: center;
     color: white;
-    background: gray;
+    background: none;
     opacity: .6;
     border-bottom: solid .05rem black;
     z-index: 10;
@@ -32,9 +32,15 @@ body {
   }
 
   header .row h1 {
-    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 40px;
     font-size: 1.75rem;
     font-weight: bold;
+  }
+
+  header a:hover {
+    text-decoration: none;
   }
 
   header li:hover {
@@ -122,6 +128,8 @@ body {
 /* Banner */
 .jumbotron {
   margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 
 video {
